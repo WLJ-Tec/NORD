@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETRO NORD</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+    <link rel="icon" href="/imagens/logo/Prancheta 2-Photoroom.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header & Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/imagens/logo/Prancheta 11.png" alt="PETRO NORD">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#processo">Processo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#vantagens">Vantagens</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div id="inicio" class="hero-video">
+        <video class="parallax-video" autoplay muted>
+            <source src="/vídeos/DJI_0397.MP4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <section class="hero d-flex align-items-center">
+            <div class="container hero-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <h1 class="display-4 fw-bold mb-4 vd">Excelência em Transporte, Revenda e Varejo de Combustíveis
+                        </h1>
+                        <p class="lead mb-4 vd">Levamos combustíveis e derivados com logística segura, preços justos e
+                            atendimento especializado para TRR.</p>
+                        <a href="#contato" class="btn btn-secondary btn-lg me-3">Fale com nosso Comercial</a>
+                        <a href="#servicos" class="btn btn-primary btn-lg" style="transition: all 0.3s ease;">Nossos
+                            Serviços</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Sobre a PETRO NORD</h2>
+                    <p>A PETRO NORD é sua parceira de confiança para transporte, revenda e varejo de combustíveis e
+                        derivados. Nossa missão é abastecer o mercado com segurança, eficiência e transparência,
+                        respeitando normas e promovendo valor agregado ao setor TRR.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <ul class="benefits-list">
+                                <li>Atendimento especializado para TRR</li>
+                                <li>Revenda de Óleos e Combustíveis</li>
+                                <li>Gestão Comercial de Derivados</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="benefits-list">
+                                <li>Transporte e Distribuição para Revendedores e Retalhistas</li>
+                                <li>Consultoria Regulamentar para Revenda e Varejo</li>
+                                <li>Regularização e Licenças para TRR</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img-hover-zoom">
+                        <img src="/imagens/mais/APLICAÇÃO.png" alt="Sobre a PETRO NORD"
+                            class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5">
+        <div class="container py-5">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <h2 class="section-title">Nossos Serviços</h2>
+                    <p class="lead">Soluções completas para Transporte, Revenda e Varejo de Combustíveis</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="service-box">
+                        <div class="service-icon"><i class="fas fa-gas-pump"></i></div>
+                        <h4>Revenda de Combustíveis</h4>
+                        <p>Abastecimento seguro e confiável de combustíveis para revendedores e retalhistas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-box">
+                        <div class="service-icon"><i class="fas fa-truck"></i></div>
+                        <h4>Transporte Especializado</h4>
+                        <p>Frota própria equipada para transporte seguro, com rastreamento e monitoramento em tempo
+                            real.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-box">
+                        <div class="service-icon"><i class="fas fa-clipboard-check"></i></div>
+                        <h4>Consultoria e Licenciamento</h4>
+                        <p>Assessoria completa em conformidade regulatória e licenciamento para operações TRR.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processo -->
+    <section id="processo" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <h2 class="section-title">Nosso Processo</h2>
+                    <p class="lead">Com a PETRO NORD a eficiência é garantida!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h4>Recebimento</h4>
+                        <p>Recebemos combustíveis e derivados em conformidade com as normas vigentes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h4>Transporte</h4>
+                        <p>Distribuímos com frota rastreada e equipe qualificada.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h4>Revenda</h4>
+                        <p>Comercialização de combustíveis para revendedores e parceiros do setor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h4>Varejo</h4>
+                        <p>Atendimento direto ao cliente final, garantindo qualidade e preço justo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vantagens -->
+    <section id="vantagens" class="py-5">
+        <div class="container py-5">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <h2 class="section-title">Vantagens</h2>
+                    <p class="lead">Por que escolher a PETRO NORD?</p>
+                    <p>Oferecemos soluções completas e personalizadas em transporte, revenda e varejo de combustíveis.
+                        Nosso compromisso é com a segurança, eficiência e a confiança no setor TRR.</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6 mb-4">
+                    <div class="stats-box">
+                        <div class="stats-number" data-count="100">0</div>
+                        <p>Clientes Atendidos</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="stats-box">
+                        <div class="stats-number" data-count="5000">0</div>
+                        <p>Litros Distribuídos</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="stats-box">
+                        <div class="stats-number" data-count="15">0</div>
+                        <p>Anos de Experiência</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="stats-box">
+                        <div class="stats-number" data-count="100">0</div>
+                        <p>% de Conformidade</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="video">
+                    <video class="img-fluid rounded shadow" autoplay muted loop>
+                        <source src="/vídeos/DJI_0398.MP4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <h2 class="section-title">Entre em Contato</h2>
+                    <p class="lead">Solicite uma proposta comercial ou fale com nossa equipe</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3"><input type="text" class="form-control"
+                                    placeholder="Nome completo" required></div>
+                            <div class="col-md-6 mb-3"><input type="email" class="form-control" placeholder="E-mail"
+                                    required></div>
+                            <div class="col-md-6 mb-3"><input type="tel" class="form-control" placeholder="Telefone">
+                            </div>
+                            <div class="col-md-6 mb-3"><input type="text" class="form-control" placeholder="Empresa">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <select class="form-select" required>
+                                    <option selected disabled>Assunto</option>
+                                    <option>Proposta Comercial</option>
+                                    <option>Atendimento</option>
+                                    <option>Outros</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3"><textarea class="form-control" rows="5" placeholder="Mensagem"
+                                    required></textarea></div>
+                            <div class="col-12"><button type="submit" class="btn btn-primary btn-lg">Enviar
+                                    Mensagem</button></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="contact-info">
+                        <h4 class="mb-4">Informações de Contato</h4>
+                        <p><i class="fas fa-map-marker-alt contact-icon"></i> Rua Exemplo, 123 - Cidade - Estado</p>
+                        <p><i class="fas fa-phone contact-icon"></i> (11) 9999-9999</p>
+                        <p><i class="fas fa-envelope contact-icon"></i> contato@petronordt.com.br</p>
+                        <p><i class="fas fa-clock contact-icon"></i> Segunda a Sexta: 8h às 18h</p>
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="mb-4">Nossas Redes Sociais</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="/imagens/logo/Prancheta 11.png" alt="PETRO NORD" class="img-fluid mb-4"
+                        style="max-height: 60px;">
+                    <p>Excelência em Transporte, Revenda e Varejo de Combustíveis. Sua parceira de confiança no setor
+                        TRR.</p>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Links Rápidos</h5>
+                        <ul>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#processo">Processo</a></li>
+                            <li><a href="#vantagens">Vantagens</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Nossos Serviços</h5>
+                        <ul>
+                            <li><a href="#">Revenda de Combustíveis</a></li>
+                            <li><a href="#">Transporte Especializado</a></li>
+                            <li><a href="#">Consultoria e Licenciamento</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer-links">
+                        <h5>Contato</h5>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> Rua Exemplo, 123</li>
+                            <li><i class="fas fa-phone me-2"></i> (11) 9999-9999</li>
+                            <li><i class="fas fa-envelope me-2"></i> contato@petronord.com.br</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-6">
+                    <p>WLJ Tecnologia &copy; Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap & JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
